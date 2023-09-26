@@ -1,0 +1,31 @@
+{
+  "name": "neon-edge-analytics-nextjs-sample",
+  "version": "1.0.0",
+  "description": "A sample app for using Edge Analytics with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/neon-edge-analytics-nextjs-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/neon-edge-analytics-nextjs-sample/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/neon-edge-analytics-nextjs-sample#readme",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.6.0",
+    "@vercel/edge": "^1.1.0",
+    "next": "^13.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
